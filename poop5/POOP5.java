@@ -5,7 +5,7 @@
  */
 package poop5;
 
-public class Practica5 {
+public class POOP5 {
     
     public static void main(String args[]){
         

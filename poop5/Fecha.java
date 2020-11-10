@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Practica5;
+package poop5;
 
 /**
  *
@@ -12,18 +12,18 @@ package Practica5;
 public class Fecha {
     private int dia;
     private int mes;
-    private int año;
+    private int anio;
 
     public Fecha() {
         this.dia = 13;
         this.mes = 5;
-        this.año = 2001;
+        this.anio = 2001;
     }
 
-    public Fecha(int dia, int mes, int año) {
+    public Fecha(int dia, int mes, int anio) {
         this.dia = dia;
         this.mes = mes;
-        this.año = año;
+        this.anio = anio;
     }
 
     public int getDia() {
@@ -34,8 +34,8 @@ public class Fecha {
         return mes;
     }
 
-    public int getAño() {
-        return año;
+    public int getAnio() {
+        return anio;
     }
 
     public void setDia(int dia) {
@@ -46,13 +46,13 @@ public class Fecha {
         this.mes = mes;
     }
 
-    public void setAño(int año) {
-        this.año = año;
+    public void setAnio(int anio) {
+        this.anio = anio;
     }
 
     @Override
     public String toString() {
-        return "Fecha{" + "dia=" + dia + ", mes=" + mes + ", a\u00f1o=" + año + '}';
+        return "Fecha{" + "dia=" + dia + ", mes=" + mes + ", a\u00f1o=" + anio + '}';
     }
     
 }
