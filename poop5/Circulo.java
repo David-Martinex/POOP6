@@ -15,7 +15,7 @@ public class Circulo{
     private String color;
 
     /**
-     * 
+     * Se Imprime el mensaje con el que da aviso que se ha creado nuestro nuevo circulo
      */
     public Circulo()
     {
@@ -24,7 +24,7 @@ public class Circulo{
     
     /**
      * 
-     * @param radio 
+     * @param radio El circulo toma los valores del radio para su creacion
      */
     public Circulo( double radio )
     {
@@ -34,7 +34,7 @@ public class Circulo{
     
     /**
      * 
-     * @return radio 
+     * @return radio Regresa el valor del Radio
      */
     public double getRadio() {
         return radio;
@@ -45,7 +45,7 @@ public class Circulo{
     }
 
     /**
-     * @return 
+     * @return Regresa un mensaje donde imprime todos los datos de nuestro circulo
      */
     @Override
     public String toString() {
@@ -58,7 +58,9 @@ public class Circulo{
     public double prerimetro(){
         return 2* PI * radio;
     }
-    
+    /**
+    * Regresa el nuevo valor que puede tener la Area del Circulo
+    */
     public double area(){
         return PI * radio * radio;
     }
