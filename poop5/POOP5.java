@@ -5,8 +5,10 @@
  */
 package poop5;
 
+/**
+ * Sirve para poner en prueba todas nuestras clases vistas en esta Practica.
+ */
 public class POOP5 {
-    
     public static void main(String args[]){
         /**
          * Se da la creacion de c1 y c2 para la clase Circulo

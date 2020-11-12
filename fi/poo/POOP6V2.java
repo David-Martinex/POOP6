@@ -6,7 +6,8 @@
 package fi.poo;
 
 /**
- *
+ * Esta java class se encarga poner en practica la ejecucion archivos java dentro de
+ * paquetes anidados.
  * @author David Martinez
  */
 public class POOP6V2 {

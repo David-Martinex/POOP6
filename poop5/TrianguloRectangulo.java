@@ -6,8 +6,8 @@
 package poop5;
 
 /**
- *
- * @author David Martinez
+ * Clase encargada de crear un Objeto de tipo Triangulo capas de almacenar y 
+ * procesar datos especificos de un Triangulo Rectangulo.
  */
 public class TrianguloRectangulo {
     private float co,ca,hip;
@@ -17,7 +17,8 @@ public class TrianguloRectangulo {
     public TrianguloRectangulo() {
     }
     /**
-     * 
+     * Contructor de Objeto TrianguloRectangulo que recibira datos para crear el
+     * objeto en cuestion.
      * @param co Se menciona como debe ser llamado "co"
      * @param ca Se menciona como debe ser llamado "ca"
      * @param hip Se menciona como debe ser llamado "hip"
@@ -41,7 +42,7 @@ public class TrianguloRectangulo {
         return co;
     }
     /**
-     * 
+     * Metodo encargado de Cambiar el co del Objeto Triangulo Rectangulo
      * @param co Se crea un public void para co
      */
     public void setCo(float co) {
@@ -55,7 +56,7 @@ public class TrianguloRectangulo {
         return ca;
     }
     /**
-     * 
+     * Metodo encargado de Cambiar el ca del Objeto Triangulo Rectangulo
      * @param ca Se crea un public void para ca
      */
     public void setCa(float ca) {
@@ -69,7 +70,7 @@ public class TrianguloRectangulo {
         return hip;
     }
     /**
-     * 
+     * Metodo encargado de Cambiar el hip del Objeto Triangulo Rectangulo
      * @param hip Se crea un publiv void para hip
      */
     public void setHip(float hip) {
@@ -83,7 +84,7 @@ public class TrianguloRectangulo {
         return alpha;
     }
     /**
-     * 
+     * Metodo encargado de Cambiar el alpha del Objeto Triangulo Rectangulo.
      * @param alpha Se crea un public void para alpha
      */
     public void setAlpha(int alpha) {
@@ -97,35 +98,40 @@ public class TrianguloRectangulo {
         return betta;
     }
     /**
-     * 
-     * @param betta Se cvrea un public void para betta
+     * Metodo encargado de Cambiar el betta del Objeto Triangulo Rectangulo
+     * @param betta Se crea un public void para betta
      */
     public void setBetta(int betta) {
         this.betta = betta;
     }
     /**
-     * 
+     * Metodo encargado de comprobar si el Objeto es un TrianguloRectangulo
      * @return Regresa el valor de triangulo
      */
     public boolean isTriangulo() {
         return triangulo;
     }
     /**
-     * 
+     * Metodo encargado de introducir un Objeto Triangulo Rectangulo
      * @param triangulo Se crea un public void para triangulo
      */
     public void setTriangulo(boolean triangulo) {
         this.triangulo = triangulo;
     }
     /**
-     * 
+     * Metodo encargado de imprimir todos los datos del Objeto Triangulo Rectangulo
      * @return Regresa de modo de mensaje los valores de co, ca, hip, alpha, betta y triangulo
      */
     @Override
     public String toString() {
         return "TrCua{" + "C.O.=" + co + ", C.A.=" + ca + ", HIP=" + hip + ", Alpha=" + alpha + ", Betta=" + betta + ", Triangulo=" + triangulo + '}';
     }
-
+    
+    /**
+     * 
+     * @param betta Se crea un public void para betta
+     * @param triangulo Se crea un public void para triangulo
+     */
     public TrianguloRectangulo(int betta, boolean triangulo) {
         this.betta = betta;
         this.triangulo = triangulo;

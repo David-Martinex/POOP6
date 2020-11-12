@@ -6,16 +6,16 @@
 package poop5;
 
 /**
- *
- * @author David Martinez
+ * Clase circulo que se encarga de crear objetos con datos necesarios para un circulo
  */
-public class Circulo{
+public class Circulo {
     static double PI = Math.PI;    
     private double radio;
     private String color;
 
     /**
-     * Se Imprime el mensaje con el que da aviso que se ha creado nuestro nuevo circulo
+     * Constructor encargado de crear un objeto circulo sin llenar ninguno de sus parametros e
+     * Imprime el mensaje con el que da aviso que se ha creado nuestro nuevo circulo
      */
     public Circulo()
     {
@@ -23,7 +23,7 @@ public class Circulo{
     }
     
     /**
-     * 
+     * Tipo de constructor encargado de crear un circulo con un radio e imprime que se creo
      * @param radio El circulo toma los valores del radio para su creacion
      */
     public Circulo( double radio )
@@ -33,18 +33,23 @@ public class Circulo{
     }
     
     /**
-     * 
+     * Regresa el radio del circulo
      * @return radio Regresa el valor del Radio
      */
     public double getRadio() {
         return radio;
     }
-
+    
+    /**
+     * Inserta un Radio en nuestro circulo
+     * @param radio Se toma para ser insertarsetado en un circulo ya creado
+     */
     public void setRadio(double radio) {
         this.radio = radio;
     }
 
     /**
+     * Funcion encargada de imprimit todos los datos de nuestro circulo
      * @return Regresa un mensaje donde imprime todos los datos de nuestro circulo
      */
     @Override
@@ -53,6 +58,7 @@ public class Circulo{
     }
 
     /**
+     * Metodo encargado de sacar el perimetro del circulo
      * @return 2*PI*radio que es el calculo del perimetro del circulo
      */
     public double prerimetro(){
@@ -64,5 +70,4 @@ public class Circulo{
     public double area(){
         return PI * radio * radio;
     }
-    
 }
